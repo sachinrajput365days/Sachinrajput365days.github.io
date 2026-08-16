@@ -3,206 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Sachin Rajput | 0 to 365 Day Brahmachari Challenge</title>
+<title>Sachin Rajput - 365 Day Brahmachari Challenge</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-    background:#000;
-    color:#fff;
-    font-family:Arial,Helvetica,sans-serif;
-    min-height:100vh;
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
 }
 
-.container{
-    width:100%;
-    max-width:650px;
-    margin:auto;
-    padding:20px 14px 40px;
+.page {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
 }
 
-.poster{
-    width:100%;
-    display:block;
-    border-radius:14px;
-    margin-bottom:25px;
-    box-shadow:0 0 25px rgba(140,255,0,.25);
+.poster {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.title{
-    text-align:center;
-    color:#b6ff00;
-    font-size:28px;
-    font-weight:900;
-    margin:15px 0 8px;
+/* Clickable areas */
+.link {
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    height: 4.7%;
+    display: block;
+    z-index: 10;
 }
 
-.subtitle{
-    text-align:center;
-    color:#ddd;
-    font-size:15px;
-    margin-bottom:25px;
-}
+/* Social buttons on the poster */
+.instagram1 { top: 43.0%; }
+.instagram2 { top: 47.2%; }
+.instagram3 { top: 51.4%; }
+.youtube    { top: 55.6%; }
+.facebook1  { top: 59.8%; }
+.facebook2  { top: 64.0%; }
 
-.buttons{
-    display:flex;
-    flex-direction:column;
-    gap:13px;
-}
-
-.btn{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-decoration:none;
-    color:white;
-    font-size:17px;
-    font-weight:bold;
-    padding:16px;
-    border-radius:12px;
-    border:1px solid #9cff00;
-    background:#111;
-    transition:.2s;
-}
-
-.btn:hover{
-    background:#9cff00;
-    color:#000;
-    transform:scale(1.02);
-}
-
-.instagram{
-    border-color:#ff4d8d;
-}
-
-.youtube{
-    border-color:#ff2222;
-}
-
-.facebook{
-    border-color:#1877f2;
-}
-
-.section{
-    margin-top:35px;
-    text-align:center;
-}
-
-.section h2{
-    color:#b6ff00;
-    font-size:22px;
-    margin-bottom:10px;
-}
-
-.section p{
-    color:#ccc;
-    line-height:1.6;
-}
-
-.footer{
-    text-align:center;
-    margin-top:40px;
-    padding-top:20px;
-    border-top:1px solid #333;
-    color:#aaa;
-    font-size:14px;
-}
-
-.radhe{
-    color:#b6ff00;
-    font-size:20px;
-    font-weight:bold;
-    margin-top:10px;
-}
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="page">
 
-    <!-- YOUR POSTER -->
-    <img
-        class="poster"
-        src="Sachin_Rajput_Poster.jpg"
-        alt="Sachin Rajput 0 to 365 Day Brahmachari Challenge"
-    >
+<img
+    src="Sachin_Rajput_Poster.jpg"
+    class="poster"
+    alt="Sachin Rajput 0 to 365 Day Brahmachari Challenge"
+>
 
-    <div class="title">
-        0 TO 365 DAY<br>
-        BRAMHACHARI CHALLENGE
-    </div>
+<!-- Instagram 1 -->
+<a
+    class="link instagram1"
+    href="https://www.instagram.com/sachinrajput01/"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
-    <div class="subtitle">
-        एक साल का संकल्प • जिंदगी का बदलाव
-    </div>
+<!-- Instagram 2 -->
+<a
+    class="link instagram2"
+    href="https://www.instagram.com/sachinrajput365days/"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
-    <div class="buttons">
+<!-- Instagram 3 -->
+<a
+    class="link instagram3"
+    href="https://www.instagram.com/sachinrajput188/"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
-        <a class="btn instagram"
-           href="https://www.instagram.com/sachinrajput01/"
-           target="_blank">
-            📸 Instagram — @sachinrajput01
-        </a>
+<!-- YouTube -->
+<a
+    class="link youtube"
+    href="https://www.youtube.com/@sachinrajput365days"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
-        <a class="btn instagram"
-           href="https://www.instagram.com/sachinrajput365days/"
-           target="_blank">
-            📸 Instagram — @sachinrajput365days
-        </a>
+<!-- Facebook Profile -->
+<a
+    class="link facebook1"
+    href="https://www.facebook.com/"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
-        <a class="btn instagram"
-           href="https://www.instagram.com/sachinrajput188/"
-           target="_blank">
-            📸 Instagram — @sachinrajput188
-        </a>
-
-        <a class="btn youtube"
-           href="https://www.youtube.com/@sachinrajput365days"
-           target="_blank">
-            ▶️ YouTube — Sachin Rajput 365 Days
-        </a>
-
-        <a class="btn facebook"
-           href="https://www.facebook.com/"
-           target="_blank">
-            🔵 Facebook — Sachin Rajput
-        </a>
-
-    </div>
-
-    <div class="section">
-        <h2>🙏 BRAMHACHARI • DISCIPLINE • FITNESS</h2>
-
-        <p>
-            Daily discipline, fitness, Bhagwat Geeta,
-            Satvik Bhojan और self improvement के साथ
-            0 से 365 दिन की यात्रा।
-        </p>
-
-        <div class="radhe">
-            ॥ राधे राधे ॥
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>📖 BHAGWAT GEETA</h2>
-
-        <p>
-            कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।
-        </p>
-    </div>
-
-    <div class="footer">
-        © 2026 Sachin Rajput<br>
-        0 to 365 Day Brahmachari Challenge
-    </div>
+<!-- Facebook Page -->
+<a
+    class="link facebook2"
+    href="https://www.facebook.com/"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
 </div>
 
