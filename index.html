@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sachin Rajput - 365 Day Brahmachari Challenge</title>
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Sachin Rajput | 365 Day Brahmachari Challenge</title>
 
 <style>
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     background: #000;
@@ -19,7 +23,7 @@ html, body {
 .page {
     width: 100%;
     max-width: 900px;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -29,24 +33,40 @@ html, body {
     display: block;
 }
 
-/* Clickable areas */
+/* Invisible clickable buttons */
 .link {
     position: absolute;
     left: 3%;
     width: 94%;
     height: 4.7%;
     display: block;
-    z-index: 10;
+    z-index: 20;
 }
 
-/* Social buttons on the poster */
-.instagram1 { top: 43.0%; }
-.instagram2 { top: 47.2%; }
-.instagram3 { top: 51.4%; }
-.youtube    { top: 55.6%; }
-.facebook1  { top: 59.8%; }
-.facebook2  { top: 64.0%; }
+/* Social buttons */
+.instagram1 {
+    top: 43.0%;
+}
 
+.instagram2 {
+    top: 47.2%;
+}
+
+.instagram3 {
+    top: 51.4%;
+}
+
+.youtube {
+    top: 55.6%;
+}
+
+.facebook1 {
+    top: 59.8%;
+}
+
+.facebook2 {
+    top: 64.0%;
+}
 </style>
 </head>
 
@@ -54,59 +74,71 @@ html, body {
 
 <div class="page">
 
-<img
-    src="Sachin_Rajput_Poster.jpg"
-    class="poster"
-    alt="Sachin Rajput 0 to 365 Day Brahmachari Challenge"
->
+    <!-- IMPORTANT:
+         GitHub file ka naam EXACTLY
+         Sachin_Rajput_Poster.jpg
+         hona chahiye.
+    -->
 
-<!-- Instagram 1 -->
-<a
-    class="link instagram1"
-    href="https://www.instagram.com/sachinrajput01/"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <img
+        src="./Sachin_Rajput_Poster.jpg"
+        class="poster"
+        alt="Sachin Rajput 0 to 365 Day Brahmachari Challenge"
+    >
 
-<!-- Instagram 2 -->
-<a
-    class="link instagram2"
-    href="https://www.instagram.com/sachinrajput365days/"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <!-- Instagram 1 -->
+    <a
+        class="link instagram1"
+        href="https://www.instagram.com/sachinrajput01/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram Sachin Rajput">
+    </a>
 
-<!-- Instagram 3 -->
-<a
-    class="link instagram3"
-    href="https://www.instagram.com/sachinrajput188/"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <!-- Instagram 2 -->
+    <a
+        class="link instagram2"
+        href="https://www.instagram.com/sachinrajput365days/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram Sachin Rajput 365 Days">
+    </a>
 
-<!-- YouTube -->
-<a
-    class="link youtube"
-    href="https://www.youtube.com/@sachinrajput365days"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <!-- Instagram 3 -->
+    <a
+        class="link instagram3"
+        href="https://www.instagram.com/sachinrajput188/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram Sachin Rajput 188">
+    </a>
 
-<!-- Facebook Profile -->
-<a
-    class="link facebook1"
-    href="https://www.facebook.com/"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <!-- YouTube -->
+    <a
+        class="link youtube"
+        href="https://www.youtube.com/@sachinrajput365days"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="YouTube Sachin Rajput 365 Days">
+    </a>
 
-<!-- Facebook Page -->
-<a
-    class="link facebook2"
-    href="https://www.facebook.com/"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <!-- Facebook Profile -->
+    <a
+        class="link facebook1"
+        href="https://www.facebook.com/search/top?q=Sachin%20Rajput"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Facebook Sachin Rajput">
+    </a>
+
+    <!-- Facebook Page -->
+    <a
+        class="link facebook2"
+        href="https://www.facebook.com/search/pages?q=Sachin%20Rajput"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Facebook Page Sachin Rajput">
+    </a>
 
 </div>
 
