@@ -21,7 +21,7 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 1024px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .poster {
@@ -30,31 +30,34 @@ html, body {
     display: block;
 }
 
-/* Teeno poori rows clickable */
-.social-link {
+/* YouTube - logo se Subscribe tak */
+.youtube {
     position: absolute;
     left: 3%;
     width: 94%;
+    top: 49.5%;
+    height: 7%;
     z-index: 100;
-    display: block;
 }
 
-/* YouTube: logo se Subscribe tak */
-.youtube {
-    top: 44%;
-    height: 7.5%;
-}
-
-/* Instagram: logo se Follow tak */
+/* Instagram - logo se Follow tak */
 .instagram {
-    top: 52%;
-    height: 7.5%;
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    top: 56.5%;
+    height: 7%;
+    z-index: 100;
 }
 
-/* Facebook: logo se Follow tak */
+/* Facebook - logo se Follow tak */
 .facebook {
-    top: 60%;
-    height: 7.5%;
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    top: 63.5%;
+    height: 7%;
+    z-index: 100;
 }
 </style>
 </head>
@@ -63,35 +66,32 @@ html, body {
 
 <div class="poster-box">
 
-    <img
-        src="SachinRajput_Poster_FINAL.jpg"
-        class="poster"
-        alt="Sachin Rajput 365 Days"
-    >
+<img
+    src="SachinRajput_Poster_FINAL.jpg"
+    class="poster"
+    alt="Sachin Rajput 365 Days"
+>
 
-    <!-- YouTube - poori row -->
-    <a
-        class="social-link youtube"
-        href="https://www.youtube.com/@sachinrajput365days"
-        target="_blank"
-        rel="noopener noreferrer">
-    </a>
+<a
+    class="youtube"
+    href="https://www.youtube.com/@sachinrajput365days"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
-    <!-- Instagram - poori row -->
-    <a
-        class="social-link instagram"
-        href="https://www.instagram.com/sachinrajput365days/"
-        target="_blank"
-        rel="noopener noreferrer">
-    </a>
+<a
+    class="instagram"
+    href="https://www.instagram.com/sachinrajput365days/"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
-    <!-- Facebook - poori row -->
-    <a
-        class="social-link facebook"
-        href="https://www.facebook.com/share/1ChTNdHS1o/?mibextid=wwXIfr"
-        target="_blank"
-        rel="noopener noreferrer">
-    </a>
+<a
+    class="facebook"
+    href="https://www.facebook.com/share/1ChTNdHS1o/?mibextid=wwXIfr"
+    target="_blank"
+    rel="noopener noreferrer">
+</a>
 
 </div>
 
