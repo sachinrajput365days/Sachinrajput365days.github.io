@@ -1,73 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Sachin Rajput 365 Days</title>
 
 <style>
-html,body{
-    margin:0;
-    padding:0;
-    background:#000;
+* {
+    box-sizing: border-box;
 }
 
-.poster{
-    position:relative;
-    width:100%;
-    max-width:1024px;
-    margin:auto;
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
 }
 
-.poster img{
-    width:100%;
-    display:block;
+.poster-box {
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
-.link{
-    position:absolute;
-    left:2%;
-    width:96%;
-    z-index:10;
+.poster {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-/* YouTube - logo se Subscribe tak */
-.youtube{
-    top:44%;
-    height:7.5%;
+/* Teeno poori rows clickable */
+.social-link {
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    z-index: 100;
+    display: block;
 }
 
-/* Instagram - logo se Follow tak */
-.instagram{
-    top:52%;
-    height:7.5%;
+/* YouTube: logo se Subscribe tak */
+.youtube {
+    top: 44%;
+    height: 7.5%;
 }
 
-/* Facebook - logo se Follow tak */
-.facebook{
-    top:60%;
-    height:7.5%;
+/* Instagram: logo se Follow tak */
+.instagram {
+    top: 52%;
+    height: 7.5%;
+}
+
+/* Facebook: logo se Follow tak */
+.facebook {
+    top: 60%;
+    height: 7.5%;
 }
 </style>
 </head>
 
 <body>
 
-<div class="poster">
+<div class="poster-box">
 
-<img src="poster.png">
+    <img
+        src="SachinRajput_Poster_FINAL.jpg"
+        class="poster"
+        alt="Sachin Rajput 365 Days"
+    >
 
-<a class="link youtube"
-href="https://www.youtube.com/@sachinrajput365days"
-target="_blank"></a>
+    <!-- YouTube - poori row -->
+    <a
+        class="social-link youtube"
+        href="https://www.youtube.com/@sachinrajput365days"
+        target="_blank"
+        rel="noopener noreferrer">
+    </a>
 
-<a class="link instagram"
-href="https://www.instagram.com/sachinrajput365days/"
-target="_blank"></a>
+    <!-- Instagram - poori row -->
+    <a
+        class="social-link instagram"
+        href="https://www.instagram.com/sachinrajput365days/"
+        target="_blank"
+        rel="noopener noreferrer">
+    </a>
 
-<a class="link facebook"
-href="https://www.facebook.com/share/1ChTNdHS1o/?mibextid=wwXIfr"
-target="_blank"></a>
+    <!-- Facebook - poori row -->
+    <a
+        class="social-link facebook"
+        href="https://www.facebook.com/share/1ChTNdHS1o/?mibextid=wwXIfr"
+        target="_blank"
+        rel="noopener noreferrer">
+    </a>
 
 </div>
 
