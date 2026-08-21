@@ -1,99 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sachin Rajput 365 Days</title>
 
 <style>
-* {
-    box-sizing: border-box;
+html,body{
+    margin:0;
+    padding:0;
+    background:#000;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    background: #000;
+.poster{
+    position:relative;
+    width:100%;
+    max-width:1024px;
+    margin:auto;
 }
 
-.poster-box {
-    position: relative;
-    width: 100%;
-    max-width: 1024px;
-    margin: auto;
+.poster img{
+    width:100%;
+    display:block;
 }
 
-.poster {
-    width: 100%;
-    height: auto;
-    display: block;
+.link{
+    position:absolute;
+    left:2%;
+    width:96%;
+    z-index:10;
 }
 
-/* FULL ROW CLICKABLE */
-.social-link {
-    position: absolute;
-    left: 2.5%;
-    width: 95%;
-    z-index: 10;
-    display: block;
+/* YouTube - logo se Subscribe tak */
+.youtube{
+    top:44%;
+    height:7.5%;
 }
 
-/* YouTube: logo se Subscribe tak */
-.youtube {
-    top: 44.4%;
-    height: 7.0%;
+/* Instagram - logo se Follow tak */
+.instagram{
+    top:52%;
+    height:7.5%;
 }
 
-/* Instagram: logo se Follow tak */
-.instagram {
-    top: 52.5%;
-    height: 7.0%;
-}
-
-/* Facebook: logo se Follow tak */
-.facebook {
-    top: 60.5%;
-    height: 7.2%;
+/* Facebook - logo se Follow tak */
+.facebook{
+    top:60%;
+    height:7.5%;
 }
 </style>
 </head>
 
 <body>
 
-<div class="poster-box">
+<div class="poster">
 
-<img
-    src="a_vertical_poster_infographic_scene_dramatic_dark.png"
-    class="poster"
-    alt="Sachin Rajput 365 Days Brahmachari Challenge"
->
+<img src="poster.png">
 
-<!-- YOUTUBE - PURI ROW CLICKABLE -->
-<a
-    class="social-link youtube"
-    href="https://www.youtube.com/@sachinrajput365days"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Open Sachin Rajput 365 Days YouTube">
-</a>
+<a class="link youtube"
+href="https://www.youtube.com/@sachinrajput365days"
+target="_blank"></a>
 
-<!-- INSTAGRAM - PURI ROW CLICKABLE -->
-<a
-    class="social-link instagram"
-    href="https://www.instagram.com/sachinrajput365days/"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Open Sachin Rajput 365 Days Instagram">
-</a>
+<a class="link instagram"
+href="https://www.instagram.com/sachinrajput365days/"
+target="_blank"></a>
 
-<!-- FACEBOOK - PURI ROW CLICKABLE -->
-<a
-    class="social-link facebook"
-    href="https://www.facebook.com/share/1ChTNdHS1o/?mibextid=wwXIfr"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Open Sachin Rajput Facebook">
-</a>
+<a class="link facebook"
+href="https://www.facebook.com/share/1ChTNdHS1o/?mibextid=wwXIfr"
+target="_blank"></a>
 
 </div>
 
