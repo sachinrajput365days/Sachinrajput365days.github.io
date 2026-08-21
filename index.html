@@ -21,7 +21,7 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 1024px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .poster {
@@ -30,34 +30,47 @@ html, body {
     display: block;
 }
 
-/* YouTube - logo se Subscribe tak */
+/* =========================
+   YOUTUBE ROW
+   Logo se Subscribe tak
+   ========================= */
 .youtube {
     position: absolute;
-    left: 3%;
-    width: 94%;
-    top: 49.5%;
-    height: 7%;
+    left: 2.5%;
+    width: 76%;
+    top: 44.0%;
+    height: 7.2%;
     z-index: 100;
 }
 
-/* Instagram - logo se Follow tak */
+/* =========================
+   INSTAGRAM ROW
+   Logo se Follow tak
+   ========================= */
 .instagram {
     position: absolute;
-    left: 3%;
-    width: 94%;
-    top: 56.5%;
-    height: 7%;
+    left: 2.5%;
+    width: 76%;
+    top: 51.2%;
+    height: 7.2%;
     z-index: 100;
 }
 
-/* Facebook - logo se Follow tak */
+/* =========================
+   FACEBOOK ROW
+   Logo se Follow tak
+   ========================= */
 .facebook {
     position: absolute;
-    left: 3%;
-    width: 94%;
-    top: 63.5%;
-    height: 7%;
+    left: 2.5%;
+    width: 76%;
+    top: 58.4%;
+    height: 7.2%;
     z-index: 100;
+}
+
+.social-link {
+    display: block;
 }
 </style>
 </head>
@@ -66,32 +79,39 @@ html, body {
 
 <div class="poster-box">
 
-<img
-    src="SachinRajput_Poster_FINAL.jpg"
-    class="poster"
-    alt="Sachin Rajput 365 Days"
->
+    <!-- FINAL POSTER -->
+    <img
+        src="Sachin_Rajput_365_Days_Poster.jpg"
+        class="poster"
+        alt="Sachin Rajput 365 Days Brahmachari Challenge"
+    >
 
-<a
-    class="youtube"
-    href="https://www.youtube.com/@sachinrajput365days"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <!-- YOUTUBE -->
+    <a
+        class="social-link youtube"
+        href="https://www.youtube.com/@sachinrajput365days"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Sachin Rajput 365 Days YouTube">
+    </a>
 
-<a
-    class="instagram"
-    href="https://www.instagram.com/sachinrajput365days/"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <!-- INSTAGRAM -->
+    <a
+        class="social-link instagram"
+        href="https://www.instagram.com/sachinrajput365days/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Sachin Rajput 365 Days Instagram">
+    </a>
 
-<a
-    class="facebook"
-    href="https://www.facebook.com/share/1ChTNdHS1o/?mibextid=wwXIfr"
-    target="_blank"
-    rel="noopener noreferrer">
-</a>
+    <!-- FACEBOOK -->
+    <a
+        class="social-link facebook"
+        href="https://www.facebook.com/share/1ChTNdHS1o/?mibextid=wwXIfr"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Sachin Rajput Facebook">
+    </a>
 
 </div>
 
